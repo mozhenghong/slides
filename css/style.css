@@ -1,0 +1,18 @@
+.wrapper {
+  text-align: center; }
+  .wrapper .window {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px auto; }
+    .wrapper .window .images {
+      display: flex;
+      transition: transform 0.5s;
+      transform: translateX(-300px); }
+  .wrapper button {
+    margin: 4px;
+    border: 0;
+    color: #2c2929;
+    padding: 4px 7px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to right, #fce5e5 0%, #fcabab 46%, #ff8787 100%); }
